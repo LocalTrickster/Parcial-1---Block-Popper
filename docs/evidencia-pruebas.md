@@ -1,13 +1,20 @@
 # Evidencia de pruebas
 
-Relaciona cada criterio de aceptacion con una prueba o secuencia manual que otra persona pueda repetir.
+## Validaciones ejecutadas
 
-| Criterio | Version validada | Metodo o comando | Pasos | Resultado esperado | Resultado observado | Evidencia |
-|---|---|---|---|---|---|---|
-| [PENDIENTE] | [Commit o version] | [Prueba o comando] | [Pasos reproducibles] | [PENDIENTE] | [PENDIENTE] | [Salida, captura o enlace] |
+| Criterio | Método | Resultado |
+|---|---|---|
+| Sintaxis del script principal | `node --check src/main.js` | Correcta, sin errores de análisis |
+| Compilación del proyecto | `npm run build` | Exitosa, genera el bundle de producción |
+| Estado del juego | revisión de las escenas y lógica de src/main.js | Se verifican tutorial, victoria, derrota, power-ups y reinicio |
 
-## Fallos y limites pendientes
+## Comandos y salida relevante
 
-- Reproduccion: [PENDIENTE]
-- Impacto: [PENDIENTE]
-- Decision: [Corregido, pospuesto o escalado.]
+- `cd "f:\JSEjercicios\Space Invaders\Parcial-1---Block-Popper" ; node --check src/main.js ; npm run build`
+- Resultado observado: Vite finaliza con `✓ built in 133ms` (última verificación ejecutada en el entorno actual).
+
+## Observaciones
+
+- La validación confirmada en este entorno es de compilación y sintaxis, no de captura visual de navegador.
+- La lógica del juego está documentada según lo que realmente existe en el código y no según una versión anterior de Phaser.
+- El repositorio no incluye secretos ni credenciales por diseño del proyecto.

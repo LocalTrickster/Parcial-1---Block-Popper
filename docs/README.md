@@ -1,25 +1,23 @@
-# Documentacion del proceso
+# Documentación del proceso
 
-Esta carpeta contiene los artefactos que permiten explicar y verificar el trabajo. Las plantillas indican que informacion registrar; no son respuestas prediseñadas.
+La carpeta docs reúne la evidencia y la documentación actual del proyecto. En esta versión, la documentación refleja la implementación real del juego y no la plantilla inicial.
 
 ## Orden de trabajo
 
-1. Completa `auditoria-repositorio.md` despues de explorar el proyecto y reunir evidencia real.
-2. Define `GDD.md`, `especificacion.md` y `plan.md` antes de habilitar escritura.
-3. Completa `matriz-permisos.md` antes de usar un agente para editar o ejecutar comandos.
-4. Registra cada ciclo relevante de herramienta en `registro-intervencion.md`.
-5. Relaciona los criterios con validaciones reproducibles en `evidencia-pruebas.md`.
-6. Escribe `informe-final.md` despues de revisar diferencias, pruebas, limites y riesgos.
+1. Revisar la estructura real del proyecto y validar la arquitectura actual.
+2. Registrar el estado técnico verificado del juego en auditoría y especificación.
+3. Documentar el alcance, riesgos y validaciones con evidencia reproducible.
+4. Guardar el historial de intervención y decisiones relevantes.
+5. Preparar el informe final con el resultado real del proyecto y sus límites.
 
-## Documentos
+## Documentos incluidos
 
-- `prompt-inicial-opencode.md`: consulta inicial de solo lectura para preparar el contexto.
-- `auditoria-repositorio.md`: hechos observados sobre estructura, flujo, pruebas y comandos.
-- `especificacion.md`: alcance y criterios de aceptacion verificables.
-- `plan.md`: cambios minimos, verificaciones, riesgos y condiciones de detencion.
-- `matriz-permisos.md`: acciones permitidas, prohibidas o que requieren consulta.
-- `registro-intervencion.md`: acciones del agente y decisiones humanas.
-- `evidencia-pruebas.md`: pruebas o pasos reproducibles por criterio.
-- `informe-final.md`: resultado, decisiones, limites y riesgos pendientes.
+- `auditoria-repositorio.md`: estructura, lógica y evidencias observadas.
+- `especificacion.md`: alcance y criterios de aceptación.
+- `plan.md`: cambios del proyecto y verificación prevista.
+- `matriz-permisos.md`: permisos y restricciones del trabajo.
+- `registro-intervencion.md`: historial de intervención.
+- `evidencia-pruebas.md`: comandos ejecutados y resultados reales.
+- `informe-final.md`: cierre del proyecto y observaciones finales.
 
-Elimina las ayudas entre corchetes antes de entregar. No incluyas credenciales, datos personales ni razonamientos internos privados de un modelo.
+La documentación del proyecto está alineada con la versión actual del juego y no incluye contenido ficticio ni credenciales.
